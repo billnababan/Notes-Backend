@@ -1,0 +1,32 @@
+////GET ALL NOTE
+###
+GET http://localhost:3000/notes
+
+///GET NOTES BY ID
+###
+GET http://localhost:3000/notes/1
+
+
+###
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+    "title": "Hari kamis",
+    "note": "balalv blaslal "
+}
+
+/////////////UPDATE NOTES
+###
+PUT http://localhost:3000/notes/3
+Content-Type: application/json
+
+{
+    "title": "hari rabu",
+    "note": "adsadadawawadwadadwawda"
+}
+
+
+///////DELETE NOTES
+###
+DELETE http://localhost:3000/notes/2
